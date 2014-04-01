@@ -1,16 +1,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TURUL Cafe & Étterem</title>
+<title>TURUL Cafe & ï¿½tterem</title>
 <meta name="Keywords" content="" />
 <meta name="Description" content="" />
 <script type="text/javascript" src="highslide-full.js" charset="UTF-8"></script>
 <script type="text/javascript">hs.graphicsDir = "highslide/graphics/";</script>
 <link rel="StyleSheet" type="text/CSS" href="galeria.css" />
 <link rel="StyleSheet" type="text/CSS" href="highslide.css" />
-<style type="text/css">
-
-</style>
 <script language="javascript">
 AC_FL_RunContent = 0;
 function MM_swapImgRestore() { //v3.0
