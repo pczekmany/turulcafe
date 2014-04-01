@@ -53,15 +53,7 @@ function MM_swapImage() { //v3.0
 </div>
 
 <div align="center" class="galeria_tartalom">
-<!--
-	<div align="center" class="szoveg1" style="height:1050; width:940">
-      <div align="center" style="float:left; width:300; background-color: #e9e5d9; height:1050"><img src="galeria_etterem.png" width="300" height="137"><img src="galeria/etterem_1.jpg" width="300" height="225"><img src="galeria/tavtarto.png" width="300" height="25"><img src="galeria/etterem_2.jpg" width="300" height="225"><img src="galeria/tavtarto.png" width="300" height="25"><img src="galeria/etterem_3.jpg" width="300" height="169"><img src="galeria/tavtarto.png" width="300" height="25" alt=""><img src="galeria/etterem_4.jpg" width="300" height="169"></div>
-      <div align="center" style="float:left; width:20; height:1050"></div>
-      <div align="center" style="float:left; width:300; height:1050;background-color: #e9e5d9"><img src="galeria_kave.png" width="300" height="137"><img src="galeria/kave_1.jpg" width="300" height="169"><img src="galeria/tavtarto.png" width="300" height="25" alt=""><img src="galeria/kave_2.jpg" width="300" height="400"><img src="galeria/tavtarto.png" width="300" height="25"><img src="galeria/kave_3.jpg" width="300" height="225"></div>
-      <div align="center" style="float:left; width:20; height:1050"></div>
-      <div align="center" style="float:left; width:300; background-color: #e9e5d9; height:1050"><img src="galeria_rend.png" width="300" height="137"><img src="galeria/rendezv_1.jpg" width="300" height="225"><img src="galeria/tavtarto.png" width="300" height="25"><img src="galeria/rendezv_2.jpg" width="300" height="169"><img src="galeria/tavtarto.png" width="300" height="25"><img src="galeria/rendezv_3.jpg" width="300" height="169"><img src="galeria/tavtarto.png" width="300" height="25"><img src="galeria/rendezv_4.jpg" width="300" height="169"></div>
-    </div>
--->
+
 <?php include('galeria_x.php'); ?>
 <br style="clear: both;" />
 </div>
