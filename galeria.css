@@ -1,0 +1,81 @@
+﻿@font-face {
+    font-family: 'edward';
+    src: url('edward.eot');
+    src: url('edward.eot?#iefix') format('embedded-opentype'),
+         url('edward.woff') format('woff'),
+         url('edward.ttf') format('truetype'),
+         url('edward.svg#TrumpGothicEastRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+a:active, a:focus{ outline:none; }
+
+input {
+	color: #333333;}
+
+.galeria_tartalom{
+	width: 960px;
+	min-height:318px;
+	margin: 0 auto 0 auto;
+	background-image: url('hasabok_bg.jpg');
+	background-repeat: repeat-y;
+	background-position: top center;
+}
+	
+.box{
+	float:left;
+	background-color: #e9e5d9;
+	margin: 0 10px 0 10px !important;
+	text-align: center;
+	width: 300px;
+	min-height: 90px;
+}
+.box a img{
+ 	vertical-align: middle;
+	max-width: 290px;
+	margin: 5px 0px 65px 0px; 
+	border: 5px solid #231200;
+	max-height: 217px;
+}
+.box  p  {
+	font-family: 'edward', Arial;
+	text-align: center;
+	margin: 20px 0px 50px 0px;
+	border: 0px solid #c5aa5f;
+	height: 30px;
+	color: #231200;
+	font-size: 58px;
+}
+
+.box a{
+	text-decoration: none;
+	color: #231200;
+	font-size: 30px;
+}
+
+.controlleft {
+	float: left;
+	display: block; 
+	text-align: left; 
+	margin: -40px 0px 0px 10px;
+}
+.controlright {
+	float: right;
+	display: block; 
+	text-align: right; 
+	margin: -40px 10px 0px 0px;
+}
+#galeria-alfejlec {
+	font-family: 'edward', Arial;
+	color: #231200;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid #c5aa5f;
+	padding-top: 0px;
+	text-align: center;
+	font-size: 58px;
+}
+#kepfelirat {
+	text-align: center;
+	height: 40px;
+}

@@ -1,0 +1,57 @@
+ #etlap{
+	width: 900px;
+	margin: 0px auto 0px auto;
+	background-color: #cecece;  /*capucino*/
+	border: 10px solid #333; /*barna*/
+	color: red;
+ }
+ 
+ #etlap h1{
+	width: 100%;
+	text-align: center;
+ }
+ 
+ #bal, #jobb{
+	padding: 0px 10px 10px 10px;
+ }
+ 
+ #bal{
+	width: 420px;
+	float: left;
+	border-right: 1px solid #333;
+	min-height: 600px;
+ }
+ 
+ #jobb{
+	width: 420px;
+	float: right;
+	min-height: 600px;
+ }
+ 
+ #lablec{
+	clear: both;
+	width: 100%;
+	text-align: center;
+ }
+ 
+ p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	float: left;
+ }
+ 
+ p span{
+	display: block;
+	float: left;
+	width: 300px;
+ }
+ 
+ .ar{
+	width: 80px;
+	text-align: right;
+ }
+ 
+ h2 {
+	float: left;
+	margin-top: 0px;
+ }

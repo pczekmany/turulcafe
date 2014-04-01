@@ -1,0 +1,389 @@
+
+
+a:active, a:focus{ outline:none; }
+
+input {
+	color: #333333;}
+
+#main_admin{
+	position: relative;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: Arial;
+	background-image: none;
+	background-color: #ffffff;}	
+
+#div_adminmenu{
+	float: none;
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;}
+	
+.admin_menu{
+	background-image: url('graphics/admin_menu_hatter.jpg');
+	background-repeat: repeat-x;
+	height: 34px;
+	clear: both;
+	margin: 0px 0px 0px 0px;}
+	
+#div_adminmenu a{
+   
+	font-size: 14px;
+	padding-top: 8px;
+	float: none;
+	display: block;
+	width: 130px;
+	height: 26px;
+	color: #fefefe;
+	text-decoration: none;
+	border-right: 1px solid #fefefe;}
+	
+#div_adminmenu a:hover{
+	background-color: #2E879D;}
+	
+#div_admintorzs{
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0px auto 10px auto !important;
+	padding-top: 20px;
+	background-image: url('graphics/admin_hatter.jpg');
+	background-repeat: repeat-x;
+	background-color: #ffffff;}
+
+#admin_termekadatlap{
+   clear: both;
+	margin: 0px 0px 10px 10px;
+	background-color: #f4f4f4;
+	border: 1px solid #cecece;
+	width: 96%;
+	}
+	
+#admin_termekadatlap label{
+   display: block;
+   width: 160px;
+   float: left;
+   clear: both;
+   margin: 2px 2px 2px 6px;
+   text-align: left;}
+
+#admin_termekadatlap input, #admin_termekadatlap textarea, #admin_termekadatlap select{
+   float: left;
+   margin: 2px 80px 2px 2px;
+   width: 300px;
+   resize: none;
+   padding: 2px;
+   border: 1px solid #686868;
+}
+
+#admin_termekadatlap select{
+   width: 306px;
+}
+
+#admin_termekadatlap span{
+   float: left;
+   margin-right: 80px;
+   width: 300px;
+   resize: none;
+   padding-top: 4px;
+   text-align: left;
+}
+
+.meret_check{
+   width: 20px !important;
+   float: left !important;
+   clear: none !important;
+   margin: 0px !important;
+}
+
+.a_form_fej{
+	padding: 8px 0px 0px 50px;
+	margin-bottom: 10px;
+	height: 30px;
+	background-image: url('graphics/admin_form_fej.jpg');
+	background-repeat: repeat-x;
+	color: #125582;
+	font-size: 22px;
+	text-align: left;
+	border-bottom: 1px solid #cecece;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;}
+
+.a_form_beldiv{
+	clear: both;
+	margin: 0px 0px 10px 10px;
+	background-color: #f4f4f4;
+	border: 1px solid #cecece;
+	width: 96%;}	
+	
+.a_form_beldiv td{
+	text-align: left;
+}
+	
+.admin_form{
+	background-color: #ffffff;
+	border: 1px solid #cecece;
+	width: 700px;
+	clear: both;
+	margin: 0px auto 20px auto;
+	border-radius: 10px;}
+
+.admin_form span{
+	float: left;
+	display: block;
+	width: 150px;}
+	
+#menu_katalogusok{
+	position: relative;
+	display: block;
+	float: left;
+	width: 131px;
+	background-image: url('graphics/x.png');
+	height: 34px;
+	overflow: hidden;}
+	
+#menu_kozosseg{
+	position: relative;
+	display: block;
+	float: left;
+	width: 131px;
+	background-image: url('graphics/x.png');
+	height: 34px;
+	overflow: hidden;}
+	
+#menu_rendszer{
+	position: relative;
+	display: block;
+	float: left;
+	width: 131px;
+	background-image: url('graphics/x.png');
+	height: 34px;
+	overflow: hidden;}
+	
+.cedula_admintermeklista {
+	float: none;
+	clear: both;
+	display: block;
+	height: 52px;
+	width: 630px;
+	text-decoration: none;
+	color: #444444;
+	margin: 2px auto 2px auto;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;}
+	
+.cedula_admintermeklista:hover{
+	border: 1px solid #868686;
+	background-color: #F9F9E3;}
+
+.cedula_admintermeklista span{
+	display: block;
+	width: 230px;
+	padding-top: 3px;
+	font-size: 14px;
+	float: left;}
+	
+.cedula_admintermeklista img{
+	float: left;
+	height: 48px;
+	width: 48px;
+	margin: 2px 12px 2px 2px;}
+
+.navsav{
+   width: 400px;
+   height: 20px;
+   float: right;
+   text-align: right;
+   margin: 0px 10px 0px 0px;
+}
+
+.oldalszam {
+	margin: 0px 2px 0px 2px;
+	text-decoration: none;
+	color: #cb1f51;
+   padding: 2px;
+   font-size: 12px;}
+
+.oldalszam:hover {
+	color: #686868;
+	font-weight: bold;}	
+	
+.oldalszamv {
+	text-decoration: none;
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 2px;
+   background-color: #cb1f51 !important;}
+
+.lapszamsor a{
+   text-decoration: none;
+   color: #fefefe;
+   background-color: #0f4eb8;
+   margin: 1px 1px 1px 1px;
+   text-align: center;
+   padding: 1px 3px 1px 3px;
+   border: 0px solid #111111;
+   font-size: 10px;
+   height: 18px;
+   display: block;
+   float: left;
+}
+
+.lapszamsor a:hover{
+   background-color: #28668f}
+
+	
+.div_fej_h{
+	background-image: url('graphics/admin_fej_hatter.jpg');
+	background-repeat: repeat-x;
+	font-size: 32px;
+	color: #fefefe;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 8px;
+	height: 46px;
+	display: block;
+}
+
+/*adatlap men�sora */
+#a_lap_adatlap, #a_lap_fotok, #a_lap_hozzaszol, #a_cikk_adatlap, #a_cikk_szoveg{
+	display: block;
+	float: left;
+	padding: 3px 7px 3px 7px;
+	background-color: #dedede;
+	color: #686868;
+	text-decoration: none;
+	font-size: 14px;
+	margin: -4px 5px 0px 5px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;}
+	
+#a_lap_adatlap:hover, #a_lap_fotok:hover, #a_lap_hozzaszol:hover, #a_cikk_adatlap:hover, #a_cikk_szoveg:hover{
+	background-color: #aaaaaa;
+	color: #fefefe;}
+	
+.a_form_mentes{
+	float: right; 
+	margin-right: 20px;}
+	
+	
+ul.menu{
+			width: 100%;
+			float: left;
+			margin: 0px 0px 0px 0px;
+			margin-top: 0px;}
+		ul.menu li{
+			float: left;
+			list-style-type: none;
+			margin: 0px auto 0px auto;
+			padding: 0px;
+			color: #fefefe;}
+		
+		ul.menu li ul{
+			position: absolute;
+			display: none;
+			z-index: 20;
+			}
+		ul.menu li:hover{
+			background-color: #d9d9d9;}
+		ul.menu li:hover ul{
+			opacity: 0.85;
+			display: block;}
+		ul.menu li:hover a{
+			color: #686868 !important;}
+		ul.menu li ul{
+			background-color: #eeeeee;
+			border: 1px solid #aaaaaa;
+			padding: 0px;
+			margin: 0px;
+			}
+		ul.menu li ul li{
+			float: none;
+			margin: 0px;
+			}
+			
+		ul.menu li ul li a:hover{
+			color: #fefefe !important;
+			}
+			
+.cimlap_table{
+	border-collapse: collapse;
+	float: left; 
+	margin: 10px 5px 10px 5px;
+	font-size: 12px;}
+	
+.cimlap_table td, .cimlap_table th{
+	border: 1px solid #cccccc;}
+	
+.admin_vasarlaslap{
+   width: 680px;
+   float: left;
+   clear: both;
+   border-bottom: 2px solid #cecece;
+   padding: 10px;
+}
+
+.admin_vasarlaslap label{
+   width: 90px;
+   float: left;
+   display: block;
+   clear: both;
+   text-align: left;
+   margin-left: 6px;
+}
+
+.admin_vasarlaslap div{
+   width: 420px;
+   float: left;
+   text-align: left;
+}
+
+
+
+.etel_urlap {
+	width: 450px;
+	margin: 20px auto 0px auto;
+	border: 1px solid #383838;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.etel_urlap label{
+	display: block;
+	width: 100px;
+	height: 22px;
+	float: left;
+	clear: both;
+	margin-top: 13px;
+	text-align: left;
+}
+
+.etel_urlap input{
+	width: 300px;
+	height: 22px;
+	margin: 10px 30px 0px 0px;
+}
+
+.etel_urlap input[type=checkbox]{
+	width: 18px;
+	margin-right: 280px;
+}
+
+.etel_lista{
+	width: 500px;
+	border: 1px;
+	border-collapse:collapse;
+	margin: 20px auto 0px auto;
+}
+
+.etel_lista th, .etel_lista td {
+	border: 1px solid black;
+}
+
+.etel_lista img{
+	width: 20px;
+	margin: 0px 10px 0px 10px;
+	border: 0px;
+}
