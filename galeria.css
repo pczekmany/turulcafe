@@ -55,16 +55,16 @@ input {
 }
 
 .controlleft {
+   float: right;
+	display: block; 
+	text-align: right; 
+	margin: -40px 10px 0px 0px;
+}
+.controlright {
 	float: left;
 	display: block; 
 	text-align: left; 
 	margin: -40px 0px 0px 10px;
-}
-.controlright {
-	float: right;
-	display: block; 
-	text-align: right; 
-	margin: -40px 10px 0px 0px;
 }
 #galeria-alfejlec {
 	font-family: 'edward', Arial;

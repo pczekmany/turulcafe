@@ -72,35 +72,35 @@ else {
 		else {$lapxx = $_REQUEST[lap];}
 		#ha az oldal utols? k?p?t n?zz?k ?s m?g van ut?na oldal
 		If (($kepszamlalo == $kepdbv) AND ($ig < $kepdb)){
-			#$utolsokep = "utolsókép";
+			#$utolsokep = "utolsï¿½kï¿½p";
 			$tovabblink = '<a href="index.php?p=galeria&amp;csoport='.$_REQUEST[csoport].'&amp;lang='.$_SESSION["lang"].'&amp;lap='.($lapxx+1).'" class="controlright">';}
 		else {
-			$tovabblink = '<a href="#" onclick="return hs.next(this)" class="controlright">';}
-		#ha az oldal elsõ képét n?zz?k ?s m?g van el?tte oldal
+			$tovabblink = '<a href="#" onclick="return hs.previous(this)" class="controlright">';}
+		#ha az oldal elsï¿½ kï¿½pï¿½t n?zz?k ?s m?g van el?tte oldal
 		If (($kepszamlalo == 1) AND ($tol > 0)){
-			#$elsokep = "elsõkép";
+			#$elsokep = "elsï¿½kï¿½p";
 			$elozolink = '<a href="index.php?p=galeria&amp;csoport='.$_REQUEST[csoport].'&amp;lang='.$_SESSION["lang"].'&amp;lap='.($lapxx-1).'" class="controlleft">';}
 		else {
-			#$elsokep = "nem elsõkép";
-			$elozolink = '<a href="#" onclick="return hs.previous(this)" class="controlleft">';}
+			#$elsokep = "nem elsï¿½kï¿½p";
+			$elozolink = '<a href="#" onclick="return hs.next(this)" class="controlleft">';}
 		if ($megjelentcsoport == 0){
 		$kepsor = $kepsor . '
 						<div class="box">
 						<a href="' . $eleres . $next_fajlnev_nagy . '" class="highslide" onclick="return hs.expand (this, {dimmingOpacity: 0.90})">
 							<img src="' . $eleres . ''.$next_fajlnev_nagy . '" alt="" />
 						</a>
-						</div>
+						
 						
 						<div class="highslide-caption">
 							<div id="kepfelirat">'.$next_felirat.'<br />('.($tol+$kepszamlalo).'/'.$kepdb.')</div>
 							'.$elozolink.'
-								<img src="graphics/galeria_b_nyil.jpg" border="0" alt="következõ" title="következõ" />
+								<img src="graphics/next.png" border="0" alt="kï¿½vetkezï¿½" title="kï¿½vetkezï¿½" />
 							</a>
 							'.$tovabblink.'
-								<img src="graphics/galeria_j_nyil.jpg" border="0" alt="elõzõ" title="elõzõ" />
+								<img src="graphics/back.png" border="0" alt="elï¿½zï¿½" title="elï¿½zï¿½" />
 							</a>
 						</div>
-						
+						</div>
 	';
 	}
 	}
