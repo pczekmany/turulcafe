@@ -9,6 +9,11 @@
     font-style: normal;
 }  
 
+body{
+	padding: 0;
+	margin: 0;
+}
+
 a:active, a:focus{ outline:none; }
 
 input {
@@ -17,15 +22,16 @@ input {
 .galeria_tartalom{
 	width: 960px;
 	min-height:318px;
+	padding-top: 20px;
 	margin: 0 auto 0 auto;
-	background-image: url('hasabok_bg.jpg');
+	/*background-image: url('hasabok_bg.jpg');*/
 	background-repeat: repeat-y;
 	background-position: top center;
 }
 	
 .box{
 	float:left;
-	background-color: #e9e5d9;
+	/*background-color: #e9e5d9;*/
 	margin: 0 10px 0 10px !important;
 	text-align: center;
 	width: 300px;
@@ -35,7 +41,7 @@ input {
  	vertical-align: middle;
 	max-width: 290px;
 	margin: 5px 0px 65px 0px; 
-	border: 5px solid #231200;
+	border: 0px solid #231200;
 	max-height: 217px;
 }
 .box  p  {

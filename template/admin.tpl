@@ -8,6 +8,7 @@
 	<meta http-equiv="cache-control" content="no-cache" />
 	<meta http-equiv="Pragma" content="no-cache" /> 
 	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <script type="text/javascript" src="check.js"></script>
 	<link rel="StyleSheet" type="text/CSS" href="admin.css" />
 	<link rel="StyleSheet" type="text/CSS" href="my_content.css" />
 </head>

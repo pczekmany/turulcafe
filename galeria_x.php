@@ -15,6 +15,7 @@ else {
 }
 	#f?csoportok beolvas?sa
 	$t = mysql_query("SELECT sorszam, felirat_hu FROM ".$_SESSION[adatbazis_etag]."_galeriacsop ".$csopvaltozo." ORDER BY sorrendszam");  
+	echo mysql_error();
 	while ($next_element = mysql_fetch_array($t)){
 		$eleres = $admin_konyvtar."galeria/";
 		$next_sorszam = $next_element['sorszam'];
@@ -124,6 +125,5 @@ else {
 	$galeriatartalom = $galeriafejlec . $kepsor .$visszagomb;
 	/*$fixxszoveg = '<h1>'.$lang_galeria.'</h1>'.$galeriatartalom;
 	$alcim = ' - '.$lang_galeria;*/
-
 echo $galeriatartalom;	
 ?>

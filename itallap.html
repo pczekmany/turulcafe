@@ -19,6 +19,14 @@ body {
 	font-family: Calibri;
 	font-size: 14px;
 	text-align:justify;
+	color:#000
+}
+.szovegETL {
+	font-family: FagoCondReg;
+	font-size: 20px;
+	font-weight:400;
+	text-align:left;
+	color:#472a0f
 }
 #footer{
    position:fixed;
@@ -28,6 +36,10 @@ body {
    width:50;
    background-color: #09C; //whichever color you want
 }
+a:link {color:#472a0f; text-decoration:none}      /* unvisited link */
+a:visited {color:#472a0f; text-decoration:none}  /* visited link */
+a:hover {color:#000; text-decoration:none}   /* mouse over link */
+a:active {color:#472a0fc; text-decoration:none}  /* selected link */ 
 -->
 </style>
 <script language="javascript">
@@ -79,26 +91,75 @@ function MM_swapImage() { //v3.0
 //-->
 </script>
 </head>
-<body bgcolor="#FFFFFF" onLoad="MM_preloadImages('menu_etlap_2.png','menu_itallap_2.png','menu_kapcs_2.png','menu_kezdlap_2.png','menu_galeria_2.png')">
+<body bgcolor="#FFFFFF" onLoad="MM_preloadImages('menu_kapcs_2.png','menu_kezdlap_2.png','menu_galeria_2.png','menu_rolunk_2.png','menu_etlap_2.png')">
 
 <div align="center" id="fejlec_teljes" style="background:#35200b; width:100%; height:170; background-image: url(fejlec_hatter.jpg); background-position:center; background-repeat:no-repeat">
 <div id="fejlec_kozep_tartalom" align="center" style="height:170; width:940">
  		<div id="baloldal" align="left" style="float:left; height:170; width:318">
        	  <div style="width:318; height:70"></div>
-          <div style="width:318; height:100"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','menu_kezdlap_2.png',1)"><img src="menu_kezdlap_1.png" name="Image17" width="106" height="43" border="0"></a><img src="menu_rolunk_2.png" width="106" height="43"><a href="galeria.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','menu_galeria_2.png',1)"><img src="menu_galeria_1.png" name="Image18" width="106" height="43" border="0"></a></div>
+          <div style="width:318; height:100"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','menu_kezdlap_2.png',1)"><img src="menu_kezdlap_1.png" name="Image17" width="106" height="43" border="0"></a><a href="rolunk.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','menu_rolunk_2.png',1)"><img src="menu_rolunk_1.png" name="Image26" width="106" height="43" border="0"></a><a href="galeria.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','menu_galeria_2.png',1)"><img src="menu_galeria_1.png" name="Image18" width="106" height="43" border="0"></a></div>
  		</div>
    		<div id="kozep" align="center" style="height:170; float:left; width:304"><img src="fejlec_logo.png" width="304" height="170"></div>
 	<div id="jobb" align="center" style="float:left; height:170; width:318">
 	<div style="width:318; height:70"></div>
-     		<div style="width:318; height:100"><a href="etlap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','menu_etlap_2.png',1)"><img src="menu_etlap_1.png" name="Image29" width="106" height="43" border="0"></a><a href="itallap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','menu_itallap_2.png',1)"><img src="menu_itallap_1.png" name="Image30" width="106" height="43" border="0"></a><a href="kapcsolat.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','menu_kapcs_2.png',1)"><img src="menu_kapcs_1.png" name="Image31" width="106" height="43" border="0"></a></div>
+     		<div style="width:318; height:100"><a href="etlap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','menu_etlap_2.png',1)"><img src="menu_etlap_1.png" name="Image27" width="106" height="43" border="0"></a><img src="menu_itallap_2.png" width="106" height="43"><a href="kapcsolat.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','menu_kapcs_2.png',1)"><img src="menu_kapcs_1.png" name="Image31" width="106" height="43" border="0"></a></div>
    	  </div>
 </div>
 </div>
 
-<div align="center" style="width: 100%; height:351">
-	<div align="center" class="szoveg1" style="height:351; width:940">
-      <div align="center">Feltöltés alatt...</div>
-    </div>
+<div align="center" style="width: 100%; height:400; background-image:url(kozep_hatter_etlap.jpg); background-position:left; background-repeat: repeat">
+	<div align="center" style="height:400; width:940">
+	  <div align="center" style="float:left; height:275; width:305"><img src="udv_kep_ital.png" width="305" height="275"></div>
+      <div align="left" style="float:left; width:350; height:400">
+	    <div><img src="etlap_kedves.png" width="350" height="91"></div>
+	  	<div>
+		<div align="justify" class="szoveg1">Szeretettel köszöntjük éttermünkben, a megújult Árpád Téren, az újonnan nyitott Turul étterem és kávézóban! 
+		  </div>
+		<p align="justify" class="szoveg1">Családias hangulattal, udvarias kiszolgálással, különleges gasztronómiai élményekkel várjuk vendégeinket, amelyek garantálják, hogy mindenki 			megtalálja a várakozásainak megfelelőt! Éttermünkben mindenki otthon érezheti magát, a nap bármely szakában is tér be hozzánk.Családias hangulattal, udvarias kiszolgálással, különleges gasztronómiai élményekkel várjuk vendégeinket, amelyek garantálják, hogy mindenki 			megtalálja a várakozásainak megfelelőt! Éttermünkben mindenki otthon érezheti magát, a nap bármely szakában is tér be hozzánk.</p>
+	  	</div>
+	  </div>
+	  <div align="left" style="float:left; width:40; height:400"></div>
+      <div align="left" style="float:left; width:245; height:400; background-image:url(kozep_hatter_etlap_sot.jpg); background-position:left; background-repeat:repeat">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="20%">&nbsp;</td>
+            <td width="80%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="udito.html">Üdítőitalok</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="sor.html">Sörök</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="bor.html">Borok</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="rovid.html">Röviditalok</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="palinka.html">Pálinkák</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="pezsgo.html">Pezsgők</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="kave.html">Kávék</a></td>
+          </tr>
+          <tr>
+            <td><img src="etlapikon2.png" alt="" width="36" height="18"></td>
+            <td class="szovegETL"><a href="koktel.html">Koktélok</a></td>
+          </tr>
+        </table>
+      </div>
+	</div>
 </div>
 <div align="center" id="lablec_teljes" style="background:#f3f3f3; width:100%; height:190; background-image: url(lablechatter.jpg); background-position:center; background-repeat:no-repeat">
 	<div id="lablec_kozep_tartalom" align="center" style="height:190; width:940">

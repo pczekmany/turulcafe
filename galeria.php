@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TURUL Cafe & �tterem</title>
+<title>TURUL Cafe & Étterem</title>
 <meta name="Keywords" content="" />
 <meta name="Description" content="" />
 <script type="text/javascript" src="highslide-full.js" charset="UTF-8"></script>
@@ -51,13 +51,13 @@ function MM_swapImage() { //v3.0
    	  </div>
 </div>
 </div>
-
+<div align="center" style="width: 100%; background-image:url(kozep_hatter_etlap.jpg); background-position:left; background-repeat: repeat">
 <div align="center" class="galeria_tartalom">
 
 <?php include('galeria_x.php'); ?>
 <br style="clear: both;" />
 </div>
-
+</div>
 <div align="center" id="lablec_teljes" style="background:#f3f3f3; width:100%; height:190; background-image: url(lablechatter.jpg); background-position:center; background-repeat:no-repeat">
 	<div id="lablec_kozep_tartalom" align="center" style="height:190; width:940">
  <div align="center" style="height:160; clear:both">
